@@ -134,6 +134,48 @@
       </div>
 
         <div class="grid">
+		
+		<!-- Pianedo -->
+        <div class="container-fluid portfolio-entry games">
+          <div class="row">
+          <div class="col-sm-5">
+            <div style="--aspect-ratio:1/1;">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <img class="swiper-slide" src="assets/img/Pianedo/Pianedo.png" alt="">
+                <img class="swiper-slide" src="assets/img/Pianedo/screen1.png" alt="">
+                <img class="swiper-slide" src="assets/img/Pianedo/screen2.png" alt="">
+                <img class="swiper-slide" src="assets/img/Pianedo/screen4.png" alt="">
+
+            </div>
+          <div class="swiper-pagination"></div>
+
+        </div>
+          </div>
+          </div>
+          <div class="col-sm-7 align-self-center">
+            <h2 class="d-flex justify-content-between">
+              <span>
+                Pianedo <a href="https://mensi0.itch.io/pianedo"><i class="fab fa-itch-io"></i></a>
+              </span>
+              <span>
+                <i class="fab fa-xs fa-unity" data-bs-toggle="tooltip" title="Unity"></i>
+                <i class="fab fa-xs fa-windows" data-bs-toggle="tooltip" title="Windows"></i>
+              </span>
+            </h2>
+            <p class="fst-italic">Play as a small black hole consuming everything on a procedurally generated planet</p>
+            <br>
+            <p>Pianedo is a 3D Katamari inspired game made for <a href="https://itch.io/jam/procjam">PROCJAM 2021</a>, with the focus on the procedural generation of a planet.</p>
+            <br>
+			<p>First, in order to have an even distribution of points, an icosphere is generated.</p>
+			<p>Then each points is assigned to a biome (plain, desert or mountain), and deformed accordingly with a combination of perlin, billow, voronoi and ridged-multifractal noise, using a <a href="https://github.com/ricardojmendez/LibNoise.Unity">Unity port of LibNoise</a>.</p>
+            <p>After that, the planet is populated with rocks, plants and trees.</p>
+			<p>The player controls a small black hole, which glides along the surface of the planet. and absorbs smaller objects, until it grows big enough to absorb the planet itself.</p>
+            <p>It was also particullary interesting to work on shaders to show the gravitational pulling effect of the black hole on the various objects, and the coloration of the planet itself.</p>
+          </div>
+        </div>
+        </div>
 
         <!-- Horbo -->
         <div class="container-fluid portfolio-entry games">
